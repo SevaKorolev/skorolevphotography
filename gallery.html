@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is Seva Korolev's Photography Website">
+    <style>
+        .parallax {
+            background-image: url(images/az5.jpg);
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h2, h3 {
+            font-family: serif;
+            background-color: #28324e;
+            color: white;
+        }
+
+        body {
+            color: black;
+            font-family: sans-serif;
+            background-color: #28324e;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+            background: #28324e;
+            font-weight: 500;
+        }
+
+        .header {
+            background-color: #28324e;
+            text-align: center;
+            padding-top: 1px;
+            padding-bottom: 40px;
+        }
+
+        .footer {
+            background-color: #F1F1F1;
+            text-align: right;
+            padding: 100px;
+            margin-top: 100px;
+        }
+
+        img {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+            object-position: bottom;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 8px ridge black;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px 1px;
+            color: white;
+            padding-bottom: 10px;
+        }
+
+
+            a:hover {
+                color: lightblue;
+            }
+
+        .nav {
+            padding-top: 3px;
+            text-align: right;
+        }
+
+        
+        
+        nav{
+            position:relative;
+        }
+
+        nav ul ul {position:absolute;
+                   background-color: #5564A0;
+                   padding:0;
+                   text-align:right;
+                   display:none;
+        }
+
+            nav ul ul li { border:1px solid #00005D;
+                           display:block;
+                           text-align:center;
+                           width:8em;
+                           margin-left:0;
+            }
+
+        nav a:hover a {display:block;
+        }
+
+       
+        
+        
+        .p {
+            padding-top: 300px;
+            padding: 8px;
+            color: white;
+        }
+
+        .h {
+            padding-top: 50px;
+            padding-bottom: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
+            color: white;
+        }
+
+        .y {
+            padding-top: 220px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .f {
+            padding-left: 5px;
+            padding-top: 260px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .f2 {
+            padding-left: 5px;
+            padding-top: 10px;
+            color: white;
+            padding-bottom: 240px;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+            .wrapper > div {
+                border: 2px solid rgb(23,171,88);
+                border-radius: 1px;
+                background-color: #28324e;
+                padding: 3em;
+                color: white;
+                padding: 50px 50px;
+                vertical-align: middle;
+            }
+
+
+        @media screen and (max-width:480px) {
+            .image1 {
+                padding-left: 30px;
+                margin-right: -30px;
+                padding-bottom: 40px;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .image2 {
+                margin-left: -8px;
+                margin-right: 10px;
+                margin-bottom: 90px;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .image3 {
+                padding-left: 12px;
+                margin-right: -10px;
+                padding-bottom: 60px;
+            }
+        }
+    </style>
+    <title>Pankratios Photography</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <nav>
+                <a href="index.html" style="color: lightgreen">Home</a>&nbsp;
+                <a href="gallery.html">Gallery</a> &nbsp;
+                <a href="blog.html">Blog</a>&nbsp;
+                <a href="blog.html">About</a>&nbsp;
+                <a href="contact.html">Contact Me</a>&nbsp;
+            </nav>
+        </div>
+
+        <div class="header">
+            <h1>Pankratios Photography</h1>
+        </div>
+        <div class="parallax"></div>
+        <div class="text.box"></div>
+
+    </header>
+
+    <main>
+        <div class="image1">
+            <img src="images/az3.jpg"
+             style="float:right;
+             margin-top: 50px;
+             margin-right:20px;
+             margin-left:20px;
+             width: 850px;
+             max-width:100%; 
+             height:auto;
+             border:1px;"
+             alt="photo of azizona"
+             title="AZ1">
+        </div>
+
+        <div class="h">
+            <h2 style="font-family: Arial; margin-left:300px">Arizona</h2>
+        </div>
+        
+        <div class="p" style="margin-left: 300px">Arizona description</div>
+
+        <div class="image2">
+            <img src="images/az7.jpg"
+             style="float:left;
+             margin-top: 100px;
+             margin-left:20px;
+             padding-bottom:1px;
+             width: 850px;
+             max-width:100%;
+             height:auto;
+             border:none;"
+             alt="photo of a sunny coast"
+             title="Coast">
+        </div>
+        <div class="y">
+            <h2 style="font-family: Arial">Kayaking</h2>
+        </div>
+        <div class="p">
+            Ocean kayaks are available for guest use.
+        </div>
+
+        <div class="image3">
+            <img src="birdwatching.jpg"
+             style="float:right;
+             margin-top: 20px;
+             margin-left:10px;
+             margin-right:1px;
+             width: 700px;
+             max-width:100%;
+             height:auto;
+             border:none;"
+             alt="photo of a sunny coast"
+             title="Coast">
+        </div>
+        <div class="f">
+            <h2 style="font-family:Arial">Bird Watching</h2>
+        </div>
+        <div class="f2">
+            While anytime is a good time for bird watching at Paciﬁc Trails, we offer guided birdwatching trips at sunrise several times a week.
+            <br>A variety of luxury yurt packages are available. Choose a package below and contact us to begin your reservation. We’re happy to build a custom
+            package just for you!
+        </div>
+
+        <footer>
+            <small><i>Copyright © 2022 Pacific Trails Resort | </i></small>
+            <a href="mailto:vsevolod.korolev@email.kpu.ca"><i><small>vsevolod.korolev@email.kpu.ca</small></i></a>
+        </footer>
+
+    </main>
+</body>
+</html>
+
+
